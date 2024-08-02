@@ -13,11 +13,11 @@
 
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 5rem;
 }
 
-header, main {
+.contenedor {
     display: flex;
     flex-direction: row;
     gap: 5rem;
