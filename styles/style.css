@@ -11,13 +11,8 @@
     padding: 0;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-}
-
-.header, .contenedor {
+.contenedor_principal ,
+.contenedor_secundario {
     display: flex;
     flex-direction: row;
     gap: 5rem;
