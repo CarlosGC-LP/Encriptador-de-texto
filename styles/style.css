@@ -39,6 +39,7 @@ textarea::placeholder {
 
 .advertencia {
     font-size: 0.75rem;
+    color: #495057;
 }
 
 footer {
