@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-primario: #0A3871;
+
+    --fuente-inter:  "Inter", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+input {
+    color: var(--color-primario);
+    font-family: var(--fuente-inter);
+    border-style: none;
+}
+
+input::placeholder {
+    color: var(--color-primario);
+    font-family: var(--fuente-inter);
+}
+
+footer {
+    font-family: var(--fuente-inter);
+    color: var(--color-primario);
 }
