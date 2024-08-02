@@ -17,7 +17,7 @@ body {
     gap: 5rem;
 }
 
-.contenedor {
+.header, .contenedor {
     display: flex;
     flex-direction: row;
     gap: 5rem;
