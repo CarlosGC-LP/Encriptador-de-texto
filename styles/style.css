@@ -11,8 +11,13 @@
     padding: 0;
 }
 
-body header,
-body main {
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+header, main {
     display: flex;
     flex-direction: row;
     gap: 5rem;
