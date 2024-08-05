@@ -88,6 +88,12 @@ button {
     height: 810px;
 }
 
+.muñeco {
+    width: 336px;
+    height: 304px;
+    padding: 32px;
+}
+
 footer {
     font-family: var(--fuente-inter);
     color: var(--color-primario);
