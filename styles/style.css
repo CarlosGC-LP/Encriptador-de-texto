@@ -23,7 +23,7 @@ body {
 .contenedor_secundario {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 12rem;
 }
 
 .header {
