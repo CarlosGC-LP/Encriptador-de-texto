@@ -65,6 +65,7 @@ button {
     width: 328px;
     height: 67px;
     border-radius: 24px;
+    cursor: pointer;
 }
 
 .boton_encriptar {
