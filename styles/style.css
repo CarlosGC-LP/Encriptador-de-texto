@@ -37,7 +37,7 @@ textarea {
     outline: none;
     resize: none;
     width: 577px;
-    height: 635px;
+    height: 590px;
     margin-top: 168px;
     margin-right: 183px;
     font-size: 2rem;
@@ -85,17 +85,28 @@ button {
     margin-right: 40px;
     border-radius: 32px;
     width: 400px;
-    height: 810px;
+    height: 815px;
 }
 
 .muñeco {
     width: 336px;
     height: 304px;
     padding: 32px;
+    padding-top: 150px;
+}
+
+.mensaje_resultado {
+    font-family: var(--fuente-inter);
+    padding: 32px;
+    text-align: center;
 }
 
 .mensaje_resultado h2 {
-    font-family: var(--fuente-inter);
+    color: #343A40;
+}
+
+.mensaje_resultado p {
+    color: #495057;
 }
 
 footer {
