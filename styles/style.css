@@ -94,6 +94,10 @@ button {
     padding: 32px;
 }
 
+.mensaje_resultado h2 {
+    font-family: var(--fuente-inter);
+}
+
 footer {
     font-family: var(--fuente-inter);
     color: var(--color-primario);
