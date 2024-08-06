@@ -4,14 +4,16 @@ function visibility() {
 }
 
 function textoGenerado() {
-    let texto = document.getElementById("texto").innerText;
+    let texto = document.getElementById("texto").addEventListener;
     document.getElementById("cambio_texto").innerText = texto;
 }
 
 function encriptar() {
     visibility();
+    textoGenerado();
 }
 
 function desencriptar() {
     visibility();
+    textoGenerado();
 }
