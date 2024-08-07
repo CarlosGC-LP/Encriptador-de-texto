@@ -22,5 +22,11 @@ function encriptar() {
 function desencriptar() {
     ocultar_texto();
     
+    let texto = document.getElementById("texto").value;
+    let nuevo_texto = texto.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
+
+    document.getElementById("cambio_texto").innerHTML = nuevo_texto;
+    document.getElementById("cambio_texto").style.fontSize = "1.5rem";
+
     mostrarBoton();
 }
