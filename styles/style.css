@@ -51,6 +51,7 @@ textarea::placeholder {
 .advertencia {
     font-size: 0.75rem;
     color: #495057;
+    margin-bottom: 16px;
 }
 
 .boton {
@@ -61,21 +62,28 @@ textarea::placeholder {
 }
 
 button {
-    border: none;
     width: 328px;
     height: 67px;
     border-radius: 24px;
     cursor: pointer;
+    font-family: var(--fuente-inter);
+    font-size: 1rem;
 }
 
 .boton_encriptar {
     background-color: var(--color-primario);
     color: var(--color-secundario);
+    border: 2px solid var(--color-primario);
 }
 
 .boton_desencriptar {
-    background-color: var(--color-terciario);
+    background-color: var(--color-fondo);
     color: var(--color-primario);
+    border: 2px solid var(--color-primario);
+}
+
+.boton_desencriptar:hover {
+    background-color: var(--color-terciario);
 }
 
 .resultado {
@@ -100,6 +108,15 @@ button {
     font-family: var(--fuente-inter);
     padding: 32px;
     text-align: center;
+}
+
+.boton_copiar {
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 32px;
+    color: var(--color-primario);
+    background-color: var(--color-secundario);
+    border: 2px solid var(--color-primario);
 }
 
 .mensaje_resultado h2 {
