@@ -101,17 +101,21 @@ button {
 }
 
 .muñeco {
+    display: none;
     width: 336px;
     height: 304px;
     padding: 32px;
     padding-top: 150px;
-    display: none;
 }
 
 .mensaje_resultado {
     font-family: var(--fuente-inter);
     padding: 40px;
     text-align: center;
+}
+
+.mensaje_resultado h2 {
+    margin-bottom: 16px;
 }
 
 .boton_copiar {
@@ -167,5 +171,9 @@ footer {
 
     .mensaje_resultado {
         padding: 32px;
+    }
+
+    .muñeco {
+        display: block;
     }
 }
