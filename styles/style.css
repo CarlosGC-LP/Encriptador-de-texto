@@ -22,12 +22,16 @@ body {
 .contenedor_principal ,
 .contenedor_secundario {
     display: flex;
-    flex-direction: row;
-    gap: 12rem;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.contenedor_secundario {
+    margin: 40px;
 }
 
 .header {
-    margin: 40px;
+    margin-top: 73.42px;
 }
 
 textarea {
@@ -37,9 +41,8 @@ textarea {
     outline: none;
     resize: none;
     width: 577px;
-    height: 590px;
-    margin-top: 168px;
-    margin-right: 183px;
+    height: 548px;
+    margin-top: 12px;
     font-size: 2rem;
 }
 
@@ -93,8 +96,8 @@ button {
     margin-top: 40px;
     margin-right: 40px;
     border-radius: 32px;
-    width: 400px;
-    height: 815px;
+    width: 688px;
+    height: 133px;
 }
 
 .muñeco {
@@ -102,11 +105,12 @@ button {
     height: 304px;
     padding: 32px;
     padding-top: 150px;
+    display: none;
 }
 
 .mensaje_resultado {
     font-family: var(--fuente-inter);
-    padding: 32px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -137,4 +141,31 @@ footer {
     font-size: 1rem;
     text-align: center;
     margin: 20px;
+}
+
+@media (min-width: 769px) {
+    .header {
+        margin: 40px;
+    }
+
+    .contenedor_principal ,
+    .contenedor_secundario {
+        flex-direction: row;
+        gap: 12rem;
+    }
+
+    textarea {
+        margin-top: 168px;
+        margin-right: 183px;
+        height: 590px;
+    }
+
+    .resultado {
+        width: 400px;
+        height: 815px;
+    }
+
+    .mensaje_resultado {
+        padding: 32px;
+    }
 }
