@@ -30,3 +30,9 @@ function desencriptar() {
 
     mostrarBoton();
 }
+
+function copiar() {
+    let copiar = document.getElementById("cambio_texto").innerHTML;
+
+    navigator.clipboard.writeText(copiar);
+}
