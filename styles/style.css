@@ -97,7 +97,7 @@ button {
     margin-right: 40px;
     border-radius: 32px;
     width: 688px;
-    height: 133px;
+    height: auto;
 }
 
 .muñeco {
@@ -116,6 +116,16 @@ button {
 
 .mensaje_resultado h2 {
     margin-bottom: 16px;
+    color: #343A40;
+}
+
+.mensaje_resultado p {
+    color: #495057;
+    max-width: 624px; 
+    max-height: 600px; 
+    white-space: normal;
+    overflow: hidden;
+    /*text-align: justify;*/
 }
 
 .boton_copiar {
@@ -125,18 +135,12 @@ button {
     color: var(--color-primario);
     background-color: var(--color-secundario);
     border: 2px solid var(--color-primario);
+    width: 624px;
+    height: 67px;
 }
 
 .boton_copiar:hover {
     background-color: var(--color-terciario);
-}
-
-.mensaje_resultado h2 {
-    color: #343A40;
-}
-
-.mensaje_resultado p {
-    color: #495057;
 }
 
 footer {
@@ -147,7 +151,7 @@ footer {
     margin: 20px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .header {
         margin: 40px;
     }
@@ -175,5 +179,14 @@ footer {
 
     .muñeco {
         display: block;
+    }
+
+    .boton_copiar {
+        width: 328px;
+        height: 67px;
+    }
+
+    .mensaje_resultado p {
+        max-width: 336px; 
     }
 }
