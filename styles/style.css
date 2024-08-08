@@ -17,6 +17,7 @@
 
 body {
     background-color: var(--color-fondo);
+    overflow-x: hidden;
 }
 
 .contenedor_principal ,
@@ -40,7 +41,7 @@ textarea {
     border-style: none;
     outline: none;
     resize: none;
-    width: 577px;
+    width: 688px;
     height: 548px;
     margin-top: 12px;
     font-size: 2rem;
@@ -166,6 +167,7 @@ footer {
         margin-top: 168px;
         margin-right: 183px;
         height: 590px;
+        width: 577px;
     }
 
     .resultado {
@@ -188,5 +190,44 @@ footer {
 
     .mensaje_resultado p {
         max-width: 336px; 
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        margin-top: 24px;
+    }
+
+    textarea {  
+        height: 250px;
+        width: 343px;
+    }
+
+    .boton {
+        flex-direction: column;
+    }
+
+    .boton_encriptar {
+        width: 343px;
+    }
+
+    .boton_desencriptar {
+        width: 343px;
+    }
+
+    .resultado {
+        width: 327px;
+        height: auto;
+        margin-left: 8px;
+        margin-top: 48px;
+    }
+
+    .contenedor_secundario {
+        margin: 16px;
+    }
+
+    .boton_copiar {
+        width: 279px;
+        height: 67px;
     }
 }
