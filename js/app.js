@@ -10,7 +10,7 @@ function mostrarBoton() {
 function encriptar() {
     ocultar_texto();
 
-    let texto = document.getElementById("texto").value;
+    let texto = document.getElementById("texto").value.toLowerCase();
     let nuevo_texto = texto.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
 
     document.getElementById("cambio_texto").innerHTML = nuevo_texto;
@@ -22,7 +22,7 @@ function encriptar() {
 function desencriptar() {
     ocultar_texto();
     
-    let texto = document.getElementById("texto").value;
+    let texto = document.getElementById("texto").value.toLowerCase();
     let nuevo_texto = texto.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
 
     document.getElementById("cambio_texto").innerHTML = nuevo_texto;
