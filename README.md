@@ -8,3 +8,17 @@
   <a href="https://app.netlify.com/start/deploy?repository=https://github.com/slorber/docusaurus-starter"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
   <a href="https://app.netlify.com/start/deploy?repository=https://github.com/slorber/docusaurus-starter"><img src="https://img.shields.io/badge/GitHub%20Page-black?style=for-the-badge&logo=github&logoColor=white" alt="Deploy to Github Page"></a>
 </p>
+
+<h2>Descripcion del proyecto</h2>
+
+!Bienvenidos y bienvenidas a este presente proyectos!
+
+El proyecto trata de una aplicación que encripta textos, de esta forma podras intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+
+Las "llaves" de encriptación que se utilizaron son las siguientes:
+
+- **La letra "e" es convertida para "enter"**
+- **La letra "i" es convertida para "imes"**
+- **La letra "a" es convertida para "ai"**
+- **La letra "o" es convertida para "ober"**
+- **La letra "u" es convertida para "ufat"**
