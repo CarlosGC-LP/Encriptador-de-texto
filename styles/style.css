@@ -97,7 +97,7 @@ button {
     margin-top: 40px;
     margin-right: 40px;
     border-radius: 32px;
-    width: 688px;
+    width: 650px;
     height: auto;
 }
 
@@ -126,7 +126,6 @@ button {
     max-height: 600px; 
     white-space: normal;
     overflow: hidden;
-    /*text-align: justify;*/
 }
 
 .boton_copiar {
