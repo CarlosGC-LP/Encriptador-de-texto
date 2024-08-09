@@ -33,6 +33,7 @@ Un ejemplo:
 <p>"gaitober" => "gato"</p>
 
 <h2>Algunas recomendaciones</h2>
+
 - **Se recomienda usar solo letras minusculas**
 - **No usar letras con acentos ni caracteres especiales**
 - **Si en caso desee copiar el resultado, una vez elija alguna de las opciones se le habilitará un boton con el cual podra copiar el resultado del texto ingresado**
