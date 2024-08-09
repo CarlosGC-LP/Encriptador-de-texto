@@ -47,5 +47,5 @@ Un ejemplo:
 <h2>Desarrollador</h2>
 
 - **Carlos Gonzalez Custodio**
-   - [Perfil de GitHub](https://github.com/CarlosGC-LP)
-   - [Perfil de Linkdin](https://www.linkedin.com/in/carlos-alberto-gonzalez-custodio)
+   - <a href="https://github.com/CarlosGC-LP" target="_blank">Perfil de GitHub</a>
+   - <a href="https://www.linkedin.com/in/carlos-alberto-gonzalez-custodio" target="_blank">Perfil de LinkedIn</a>
