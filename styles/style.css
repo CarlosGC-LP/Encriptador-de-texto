@@ -158,7 +158,7 @@ footer {
     margin: 20px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
     .header {
         margin: 40px;
     }
