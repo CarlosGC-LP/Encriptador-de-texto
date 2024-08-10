@@ -15,6 +15,7 @@ function encriptar() {
 
     document.getElementById("cambio_texto").innerHTML = nuevo_texto;
     document.getElementById("cambio_texto").style.fontSize = "1.5rem";
+    document.getElementById("cambio_texto").style.textAlign = "justify";
 
     mostrarBoton();
 }
@@ -27,6 +28,7 @@ function desencriptar() {
 
     document.getElementById("cambio_texto").innerHTML = nuevo_texto;
     document.getElementById("cambio_texto").style.fontSize = "1.5rem";
+    document.getElementById("cambio_texto").style.textAlign = "justify";
 
     mostrarBoton();
 }
