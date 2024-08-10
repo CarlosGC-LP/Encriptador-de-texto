@@ -61,7 +61,7 @@ textarea::placeholder {
 .boton {
     display: flex;
     gap: 1.5rem;
-    width: 680px;
+    width: 100%;
 }
 
 button {
