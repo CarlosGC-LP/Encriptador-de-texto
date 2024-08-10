@@ -41,7 +41,7 @@ textarea {
     border-style: none;
     outline: none;
     resize: none;
-    width: 688px;
+    width: 400px;
     height: 548px;
     margin-top: 12px;
     font-size: 2rem;
@@ -60,7 +60,6 @@ textarea::placeholder {
 
 .boton {
     display: flex;
-    flex-direction: row;
     gap: 1.5rem;
     width: 680px;
 }
@@ -78,12 +77,14 @@ button {
     background-color: var(--color-primario);
     color: var(--color-secundario);
     border: 2px solid var(--color-primario);
+    width: 100%;
 }
 
 .boton_desencriptar {
     background-color: var(--color-fondo);
     color: var(--color-primario);
     border: 2px solid var(--color-primario);
+    width: 100%;
 }
 
 .boton_desencriptar:hover {
@@ -97,7 +98,7 @@ button {
     margin-top: 40px;
     margin-right: 40px;
     border-radius: 32px;
-    width: 650px;
+    width: 100%;
     height: auto;
 }
 
@@ -135,7 +136,7 @@ button {
     color: var(--color-primario);
     background-color: var(--color-secundario);
     border: 2px solid var(--color-primario);
-    width: 624px;
+    width: 100%;
     height: 67px;
 }
 
@@ -157,7 +158,7 @@ footer {
     margin: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
     .header {
         margin: 40px;
     }
@@ -172,7 +173,7 @@ footer {
         margin-top: 168px;
         margin-right: 183px;
         height: 590px;
-        width: 577px;
+        width: 400px;
     }
 
     .resultado {
@@ -188,6 +189,10 @@ footer {
         display: block;
     }
 
+    .boton {
+        gap: 1.5rem;
+    }
+    
     .boton_copiar {
         width: 328px;
         height: 67px;
@@ -210,6 +215,7 @@ footer {
 
     .boton {
         flex-direction: column;
+        align-items: center;
     }
 
     .boton_encriptar {
@@ -221,10 +227,9 @@ footer {
     }
 
     .resultado {
-        width: 327px;
+        width: 100%;
         height: auto;
-        margin-left: 8px;
-        margin-top: 48px;
+        margin-top: 0;
     }
 
     .contenedor_secundario {
@@ -234,5 +239,9 @@ footer {
     .boton_copiar {
         width: 279px;
         height: 67px;
+    }
+
+    .footer_texto {
+        text-align: center;
     }
 }
